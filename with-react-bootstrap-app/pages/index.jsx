@@ -15,63 +15,104 @@ export default function Home() {
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
 
-      <Header/>
+      <Header />
 
-    <Container className='services'>
-      <Row>
-      <Col>
-          <img src="" alt=""/>
-        </Col>
-        <Col>
-        <Container>
-            <h3>Planning</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, provident blanditiis repellat atque tempore quae aliquid nisi doloremque, assumenda id iste quod rem iure deserunt officia reiciendis dolorum excepturi totam!</p>
-          </Container>
-        </Col>
-      </Row>
-      <Button>Learn More</Button>
-    </Container>
-
-    <Container className='past-projects'>
-      <h2>Past Projects</h2>
-      <Carousel>
-        <Carousel.Item>
-          <h1>hi</h1>
-        </Carousel.Item>
-        <Carousel.Caption>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic totam asperiores beatae minus aspernatur temporibus dolores itaque in, non saepe, aperiam assumenda exercitationem, possimus veritatis commodi deserunt eaque sequi veniam!</p>
-        </Carousel.Caption>
-
-        <Carousel.Item>
-          <h1>hi</h1>
-        </Carousel.Item>
-        <Carousel.Caption>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic totam asperiores beatae minus aspernatur temporibus dolores itaque in, non saepe, aperiam assumenda exercitationem, possimus veritatis commodi deserunt eaque sequi veniam!</p>
-        </Carousel.Caption>
-      </Carousel>
-
-      <Button>Learn More</Button>
-    </Container>
-
-    <Container>
-      <h2>Company News</h2>
-      <Container>
-        <Col></Col>
-        <Col></Col>
-        <Col></Col>
+      <Container className='services'>
+        <Row>
+          <Col>
+            <img src="" alt="" />
+          </Col>
+          <Col>
+            <Container>
+              <h3>Planning</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, provident blanditiis repellat atque tempore quae aliquid nisi doloremque, assumenda id iste quod rem iure deserunt officia reiciendis dolorum excepturi totam!</p>
+            </Container>
+          </Col>
+        </Row>
+        <Button>Learn More</Button>
       </Container>
-      <Button>Learn More</Button>
-    </Container>
+
+      <Container className='past-projects'>
+        <h2>Past Projects</h2>
+        <Carousel>
+          <Carousel.Item>
+            <h1>hi</h1>
+          </Carousel.Item>
+          <Carousel.Caption>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic totam asperiores beatae minus aspernatur temporibus dolores itaque in, non saepe, aperiam assumenda exercitationem, possimus veritatis commodi deserunt eaque sequi veniam!</p>
+          </Carousel.Caption>
+
+          <Carousel.Item>
+            <h1>hi</h1>
+          </Carousel.Item>
+          <Carousel.Caption>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic totam asperiores beatae minus aspernatur temporibus dolores itaque in, non saepe, aperiam assumenda exercitationem, possimus veritatis commodi deserunt eaque sequi veniam!</p>
+          </Carousel.Caption>
+        </Carousel>
+
+        <Button>Learn More</Button>
+      </Container>
+
+      <Container className='news'>
+        <h2>Company News</h2>
+        <Container>
+          <Row>
+            <Col>
+              <img src="" alt="" />
+              <h3>Construction Co. announces new partnership with Building Co.</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
+            </Col>
+            <Col>
+              <img src="" alt="" />
+              <h3>Book A Phone Consultation Today!</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
+            </Col>
+            <Col>
+              <img src="" alt="" />
+              <h3>20% discount when you refer our services!</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
+            </Col>
+          </Row>
+        </Container>
+        <Button>Learn More</Button>
+      </Container>
+
+      <Container className='blog'>
+        <h2>Blog and Resources</h2>
+        <Container>
+          <Row>
+            <Col>
+              <img src="" alt="" />
+              <h3>What to know about your personal projects and renovation finance</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
+            </Col>
+            <Col>
+              <img src="" alt="" />
+              <h3>What to look for signs of mold in your home</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
+            </Col>
+            <Col>
+              <img src="" alt="" />
+              <h3>How to set a reasonable budget for home rennovation</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
+            </Col>
+          </Row>
+        </Container>
+        <Button>Learn More</Button>
+      </Container>
 
       <footer className="cntr-footer">
-        <a
-          href="https://vercel.com?filter=next.js&utm_source=github&utm_medium=example&utm_campaign=next-example"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="sml-logo" />
-        </a>
+        <img src="" alt="" />
+        <Container>
+          <h2>Newsletter</h2>
+          <input type="text" />
+          <Button>Subscribe</Button>
+        </Container>
+        <Container>
+          <a href="">Contact</a>
+          <a href="">Career</a>
+          <a href="">Blog</a>
+        </Container>
       </footer>
     </Container>
   )

@@ -1,78 +1,67 @@
 import Head from 'next/head'
-import { Container, Row, Card, Button } from 'react-bootstrap'
+import { Container, Row, Col, Card, Button, Carousel, CarouselItem } from 'react-bootstrap'
+import Header from './components/Header'
+
+// const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+// const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
+// console.log(vw)
 
 export default function Home() {
+
   return (
     <Container className="md-container">
       <Head>
-        <title>ReactJS with react-bootstrap</title>
+        <title>Construction Co.</title>
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
-      <Container>
-        <h1>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-        <p>
-          Get started by editing <code>pages/index.js</code>
-        </p>
+
+      <Header/>
+
+    <Container className='services'>
+      <Row>
+      <Col>
+          <img src="" alt=""/>
+        </Col>
+        <Col>
         <Container>
-          <Row className="justify-content-md-between">
-            <Card className="sml-card">
-              <Card.Body>
-                <Card.Title>Documentation</Card.Title>
-                <Card.Text>
-                  Find in-depth information about Next.js features and API.
-                </Card.Text>
-                <Button variant="primary" href="https://nextjs.org/docs">
-                  More &rarr;
-                </Button>
-              </Card.Body>
-            </Card>
-            <Card className="sml-card">
-              <Card.Body>
-                <Card.Title>Learn</Card.Title>
-                <Card.Text>
-                  Learn about Next.js in an interactive course with quizzes!
-                </Card.Text>
-                <Button variant="primary" href="https://nextjs.org/learn">
-                  More &rarr;
-                </Button>
-              </Card.Body>
-            </Card>
-          </Row>
-          <Row className="justify-content-md-between">
-            <Card className="sml-card">
-              <Card.Body>
-                <Card.Title>Examples</Card.Title>
-                <Card.Text>
-                  Discover and deploy boilerplate example Next.js projects.
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  href="https://github.com/vercel/next.js/tree/master/examples"
-                >
-                  More &rarr;
-                </Button>
-              </Card.Body>
-            </Card>
-            <Card className="sml-card">
-              <Card.Body>
-                <Card.Title>Deploy</Card.Title>
-                <Card.Text>
-                  Instantly deploy your Next.js site to a public URL with
-                  Vercel.
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  href="https://vercel.com/new?utm_source=github&utm_medium=example&utm_campaign=next-example"
-                >
-                  More &rarr;
-                </Button>
-              </Card.Body>
-            </Card>
-          </Row>
-        </Container>
+            <h3>Planning</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, provident blanditiis repellat atque tempore quae aliquid nisi doloremque, assumenda id iste quod rem iure deserunt officia reiciendis dolorum excepturi totam!</p>
+          </Container>
+        </Col>
+      </Row>
+      <Button>Learn More</Button>
+    </Container>
+
+    <Container className='past-projects'>
+      <h2>Past Projects</h2>
+      <Carousel>
+        <Carousel.Item>
+          <h1>hi</h1>
+        </Carousel.Item>
+        <Carousel.Caption>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic totam asperiores beatae minus aspernatur temporibus dolores itaque in, non saepe, aperiam assumenda exercitationem, possimus veritatis commodi deserunt eaque sequi veniam!</p>
+        </Carousel.Caption>
+
+        <Carousel.Item>
+          <h1>hi</h1>
+        </Carousel.Item>
+        <Carousel.Caption>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic totam asperiores beatae minus aspernatur temporibus dolores itaque in, non saepe, aperiam assumenda exercitationem, possimus veritatis commodi deserunt eaque sequi veniam!</p>
+        </Carousel.Caption>
+      </Carousel>
+
+      <Button>Learn More</Button>
+    </Container>
+
+    <Container>
+      <h2>Company News</h2>
+      <Container>
+        <Col></Col>
+        <Col></Col>
+        <Col></Col>
       </Container>
+      <Button>Learn More</Button>
+    </Container>
 
       <footer className="cntr-footer">
         <a

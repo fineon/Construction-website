@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Container, Row, Col, Card, Button, Carousel, CarouselItem } from 'react-bootstrap'
+import { Container, Row, Col, Card, Button, Carousel } from 'react-bootstrap'
 import Header from './components/Header'
 
 // const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
@@ -23,10 +23,8 @@ export default function Home() {
             <img src="" alt="" />
           </Col>
           <Col>
-            <Container>
               <h3>Planning</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, provident blanditiis repellat atque tempore quae aliquid nisi doloremque, assumenda id iste quod rem iure deserunt officia reiciendis dolorum excepturi totam!</p>
-            </Container>
           </Col>
         </Row>
         <Button>Learn More</Button>

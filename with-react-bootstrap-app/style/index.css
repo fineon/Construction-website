@@ -1,26 +1,24 @@
 /* ensure all pages have Bootstrap CSS */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
-.md-container {
-  max-width: 800px;
-  padding-top: 2rem;
+header{
+  background-image: url('./../public/images/r-architecture.jpg');
+  background-position: center;
+  background-size: cover;
+  color: white;
+
+  /* height: 35vw; */
+  height: auto;
 }
 
-.sml-card {
-  width: 22rem;
-  margin: 1rem 0;
+header::before{
+  content: ' ';
+  background-color: black;
 }
 
-.cntr-footer {
-  height: 80px;
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-top: 1px solid #ccc;
-}
-
-.sml-logo {
-  height: 1em;
-  margin-left: 10px;
+footer{
+  width: 100%;
+  height: auto;
+  background-color: navy;
+  color: white;
 }

@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
 
-      <Header />
+      <Header/>
 
       <Container className='services' fluid>
         <Row>
@@ -42,7 +42,7 @@ export default function Home() {
           </Carousel.Item>
 
           <Carousel.Item>
-            <Image src='/images/avi-werde.jpg' fluid/>
+            <Image src='/images/stephan-bechert.jpg' fluid/>
          
           <Carousel.Caption>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic totam asperiores beatae minus aspernatur temporibus dolores itaque in, non saepe, aperiam assumenda exercitationem, possimus veritatis commodi deserunt eaque sequi veniam!</p>

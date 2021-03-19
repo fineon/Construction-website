@@ -1,15 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 import { Nav, Button } from 'react-bootstrap'
+import Logo from './logo'
 
 export default function Header() {
     return (
         <header className="container header">
             <Nav>
-                <Image src="/images/zac-cain.jpg"
-                height={144}
-                width={144}
-                alt='construction logo'/>
+                <Logo/>
                 <Nav.Link href="">Projects</Nav.Link>
                 <Nav.Link href="">Services</Nav.Link>
                 <Nav.Link href="">Blog</Nav.Link>

@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Container, Row, Col, Card, Button, Carousel } from 'react-bootstrap'
+import { Container, Row, Col, Card, Button, Carousel, Image } from 'react-bootstrap'
 import Header from './components/Header'
 
 // const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
@@ -17,10 +17,10 @@ export default function Home() {
 
       <Header />
 
-      <Container className='services'>
+      <Container className='services' fluid>
         <Row>
           <Col>
-            <img src="" alt="" />
+            <Image src="/images/annie-gray.jpg" fluid alt="" />
           </Col>
           <Col>
               <h3>Planning</h3>
@@ -30,22 +30,24 @@ export default function Home() {
         <Button>Learn More</Button>
       </Container>
 
-      <Container className='past-projects'>
+      <Container className='past-projects' fluid>
         <h2>Past Projects</h2>
         <Carousel>
           <Carousel.Item>
-            <h1>hi</h1>
-          </Carousel.Item>
+            <Image src='/images/avi-werde.jpg' fluid/>
+        
           <Carousel.Caption>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic totam asperiores beatae minus aspernatur temporibus dolores itaque in, non saepe, aperiam assumenda exercitationem, possimus veritatis commodi deserunt eaque sequi veniam!</p>
           </Carousel.Caption>
+          </Carousel.Item>
 
           <Carousel.Item>
-            <h1>hi</h1>
-          </Carousel.Item>
+            <Image src='/images/avi-werde.jpg' fluid/>
+         
           <Carousel.Caption>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic totam asperiores beatae minus aspernatur temporibus dolores itaque in, non saepe, aperiam assumenda exercitationem, possimus veritatis commodi deserunt eaque sequi veniam!</p>
           </Carousel.Caption>
+          </Carousel.Item>
         </Carousel>
 
         <Button>Learn More</Button>
@@ -56,17 +58,17 @@ export default function Home() {
         <Container>
           <Row>
             <Col>
-              <img src="" alt="" />
+              <Image src="" alt="" />
               <h3>Construction Co. announces new partnership with Building Co.</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
             <Col>
-              <img src="" alt="" />
+              <Image src="" alt="" />
               <h3>Book A Phone Consultation Today!</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
             <Col>
-              <img src="" alt="" />
+              <Image src="" alt="" />
               <h3>20% discount when you refer our services!</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
@@ -80,17 +82,17 @@ export default function Home() {
         <Container>
           <Row>
             <Col>
-              <img src="" alt="" />
+              <Image src="" alt="" />
               <h3>What to know about your personal projects and renovation finance</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
             <Col>
-              <img src="" alt="" />
+              <Image src="" alt="" />
               <h3>What to look for signs of mold in your home</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
             <Col>
-              <img src="" alt="" />
+              <Image src="" alt="" />
               <h3>How to set a reasonable budget for home rennovation</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
@@ -100,7 +102,7 @@ export default function Home() {
       </Container>
 
       <footer className="cntr-footer">
-        <img src="" alt="" />
+        <Image src="" alt="logo" />
         <Container>
           <h2>Newsletter</h2>
           <input type="text" />

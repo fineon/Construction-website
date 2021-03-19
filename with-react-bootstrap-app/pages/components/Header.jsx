@@ -4,13 +4,16 @@ import { Nav, Button } from 'react-bootstrap'
 
 export default function Header() {
     return (
-        <header>
+        <header className="container header">
             <Nav>
-                <img src="" alt="" />
-                <a href="">Projects</a>
-                <a href="">Services</a>
-                <a href="">Blog</a>
-                <a href="">News</a>
+                <Image src="/images/zac-cain.jpg"
+                height={144}
+                width={144}
+                alt='construction logo'/>
+                <Nav.Link href="">Projects</Nav.Link>
+                <Nav.Link href="">Services</Nav.Link>
+                <Nav.Link href="">Blog</Nav.Link>
+                <Nav.Link href="">News</Nav.Link>
             </Nav>
 
             <h1>Your house should be called a home. Construction Crew is here to help</h1>

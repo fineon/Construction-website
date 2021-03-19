@@ -5,7 +5,7 @@ import Logo from './logo'
 
 export default function Header() {
     return (
-        <header className="container py-5 header">
+        <header className="py-5">
             <Nav>
                 <Logo/>
                 <Nav.Link href="">Projects</Nav.Link>

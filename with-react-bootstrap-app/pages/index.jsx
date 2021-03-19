@@ -9,7 +9,7 @@ import Logo from './components/logo'
 export default function Home() {
 
   return (
-    <Container>
+    <>
       <Head>
         <title>Construction Co.</title>
         <link rel="icon" href="/favicon-32x32.png" />
@@ -147,6 +147,6 @@ export default function Home() {
         </Row>
       </footer>
 
-    </Container>
+    </>
   )
 }

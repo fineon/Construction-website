@@ -1,7 +1,7 @@
 {
-  "name": "construction website",
+  "name": "construction-website",
   "version": "0.1.0",
-  "author": "Ian Nguyen",
+  "author": "Ian-Nguyen",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",

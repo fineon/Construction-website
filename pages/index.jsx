@@ -17,13 +17,13 @@ export default function Home() {
 
       <Header />
 
-      <Container className='my-5 services' fluid>
+      <Container className='my-5 services' fluid={true}>
         <h2 className='my-4 text-center'>Our Services</h2>
         <Row className='m-2'>
-          <Col sm>
-            <Image src="/images/daniel-mccullough.jpg" fluid alt="" />
+          <Col>
+            <Image src="/images/daniel-mccullough.jpg" fluid={true} alt="" />
           </Col>
-          <Col sm>
+          <Col>
             <h3 className='my-3'>Planning</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, provident blanditiis repellat atque tempore quae aliquid nisi doloremque, assumenda id iste quod rem iure deserunt officia reiciendis dolorum excepturi totam!</p>
           </Col>
@@ -31,7 +31,7 @@ export default function Home() {
 
         <Row className='m-2'>
           <Col sm={{ order: 2 }}>
-            <Image src="/images/annie-gray.jpg" fluid alt="" />
+            <Image src="/images/annie-gray.jpg" fluid={true} alt="" />
           </Col>
 
           <Col sm={{ order: 1 }}>
@@ -41,10 +41,10 @@ export default function Home() {
         </Row>
 
         <Row className='m-2'>
-          <Col sm >
-            <Image src="/images/greyson-joralemon.jpg" fluid alt="" />
+          <Col >
+            <Image src="/images/greyson-joralemon.jpg" fluid={true} alt="" />
           </Col>
-          <Col sm>
+          <Col>
             <h3 className='my-3'>Building</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, provident blanditiis repellat atque tempore quae aliquid nisi doloremque, assumenda id iste quod rem iure deserunt officia reiciendis dolorum excepturi totam!</p>
           </Col>
@@ -58,17 +58,17 @@ export default function Home() {
 
       <Container className='my-5 past-projects' fluid={true}>
         <h2 className='my-3 text-center'>Past Projects</h2>
-        <Container sm>
+        <Container>
           <Carousel>
             <Carousel.Item>
-              <Image src='/images/avi-werde.jpg' fluid />
+              <Image src='/images/avi-werde.jpg' fluid={true} />
               <Carousel.Caption>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic totam asperiores beatae minus aspernatur temporibus dolores itaque in, non saepe, aperiam assumenda exercitationem, possimus veritatis commodi deserunt eaque sequi veniam!</p>
               </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
-              <Image src='/images/stephan-bechert.jpg' fluid />
+              <Image src='/images/stephan-bechert.jpg' fluid={true} />
               <Carousel.Caption>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic totam asperiores beatae minus aspernatur temporibus dolores itaque in, non saepe, aperiam assumenda exercitationem, possimus veritatis commodi deserunt eaque sequi veniam!</p>
               </Carousel.Caption>
@@ -85,17 +85,17 @@ export default function Home() {
         <Container>
           <Row>
             <Col>
-              <Image src="/images/cytonn-photography.jpg" alt="" fluid />
+              <Image src="/images/cytonn-photography.jpg" alt="" fluid={true} />
               <h3 className='my-3'>Construction Co. announces new partnership with Building Co.</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
             <Col>
-              <Image src="/images/scott-graham.jpg" alt="" fluid />
+              <Image src="/images/scott-graham.jpg" alt="" fluid={true} />
               <h3 className='my-3'>Book A Phone Consultation Today!</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
             <Col>
-              <Image src="/images/20off.png" alt="" fluid />
+              <Image src="/images/20off.png" alt="" fluid={true} />
               <h3 className='my-3'>20% discount when you refer our services!</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
@@ -111,18 +111,18 @@ export default function Home() {
         <h2 className='my-4'>Blog and Resources</h2>
         <Container>
           <Row>
-            <Col sm>
-              <Image src="/images/lucian-novosel.jpg" alt="" fluid />
+            <Col>
+              <Image src="/images/lucian-novosel.jpg" alt="" fluid={true} />
               <h3 className='my-3'>What to know about your personal projects and renovation finance</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
-            <Col sm>
-              <Image src="/images/avinash-kumar.jpg" alt="" fluid />
+            <Col>
+              <Image src="/images/avinash-kumar.jpg" alt="" fluid={true} />
               <h3 className='my-3'>What to look for signs of mold in your home</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
-            <Col sm>
-              <Image src="/images/kelly-sikkema.jpg" alt="" fluid />
+            <Col>
+              <Image src="/images/kelly-sikkema.jpg" alt="" fluid={true} />
               <h3 className='my-3'>How to set a reasonable budget for home rennovation</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>

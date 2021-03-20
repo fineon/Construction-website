@@ -10,14 +10,15 @@ export default function Header() {
 
     return (
         <header className="py-5">
-            <Nav>
+            <Nav className='d-flex flex-wrap justify-content-between'>
                 <Logo />
-                <Nav.Link href="">Projects</Nav.Link>
+                <Nav.Item className='d-flex flex-wrap justify-content-between'>
                 <Nav.Link href="">Services</Nav.Link>
-                <Nav.Link href="">Blog</Nav.Link>
                 <Nav.Link href="">News</Nav.Link>
+                <Nav.Link href="">Log In</Nav.Link>
+                </Nav.Item>
             </Nav>
-            <Container className='darktint'> </Container>
+
             <Container className='text-center'>
                 <h1 className='my-5'>Your house should be called a home. Construction Crew is here to help</h1>
 

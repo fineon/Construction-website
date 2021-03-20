@@ -141,9 +141,11 @@ export default function Home() {
           </Col>
 
           <Col>
-            <h5>Subscribe to our newsletter</h5>
-            <input type="text" className='form-control'/>
-            <Button>Subscribe</Button>
+            <form action="">
+              <label className='form-label'>Subscribe to our newsletter</label>
+              <input type="text" className='form-control' />
+              <Button>Subscribe</Button>
+            </form>
           </Col>
           <Col>
             <a href="">Contact</a>

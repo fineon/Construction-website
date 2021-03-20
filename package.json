@@ -1,7 +1,7 @@
 {
-  "name": "with-react-bootstrap",
+  "name": "construction website",
   "version": "0.1.0",
-  "author": "Wenzhi Li",
+  "author": "Ian Nguyen",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",

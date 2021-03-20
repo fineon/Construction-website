@@ -17,14 +17,14 @@ export default function Home() {
 
       <Header />
 
-      <Container className='my-3 services' fluid>
+      <Container className='my-5 services' fluid>
         <h2 className='my-4 text-center'>Our Services</h2>
         <Row className='m-2'>
           <Col sm>
             <Image src="/images/daniel-mccullough.jpg" fluid alt="" />
           </Col>
           <Col sm>
-            <h3>Planning</h3>
+            <h3 className='my-3'>Planning</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, provident blanditiis repellat atque tempore quae aliquid nisi doloremque, assumenda id iste quod rem iure deserunt officia reiciendis dolorum excepturi totam!</p>
           </Col>
         </Row>
@@ -35,7 +35,7 @@ export default function Home() {
           </Col>
 
           <Col sm={{ order: 1 }}>
-            <h3>Customizing</h3>
+            <h3 className='my-3'>Customizing</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, provident blanditiis repellat atque tempore quae aliquid nisi doloremque, assumenda id iste quod rem iure deserunt officia reiciendis dolorum excepturi totam!</p>
           </Col>
         </Row>
@@ -45,23 +45,23 @@ export default function Home() {
             <Image src="/images/greyson-joralemon.jpg" fluid alt="" />
           </Col>
           <Col sm>
-            <h3>Building</h3>
+            <h3 className='my-3'>Building</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, provident blanditiis repellat atque tempore quae aliquid nisi doloremque, assumenda id iste quod rem iure deserunt officia reiciendis dolorum excepturi totam!</p>
           </Col>
         </Row>
 
-        <Button className='m-3'>Learn More</Button>
+        <div className='m-3 text-center'>
+          <Button>Learn More</Button>
+        </div>
+
       </Container>
 
-      <Container className='my-3 past-projects' fluid={true}>
-        
+      <Container className='my-5 past-projects' fluid={true}>
         <h2 className='my-3 text-center'>Past Projects</h2>
-
         <Container sm>
           <Carousel>
             <Carousel.Item>
               <Image src='/images/avi-werde.jpg' fluid />
-
               <Carousel.Caption>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic totam asperiores beatae minus aspernatur temporibus dolores itaque in, non saepe, aperiam assumenda exercitationem, possimus veritatis commodi deserunt eaque sequi veniam!</p>
               </Carousel.Caption>
@@ -69,74 +69,80 @@ export default function Home() {
 
             <Carousel.Item>
               <Image src='/images/stephan-bechert.jpg' fluid />
-
               <Carousel.Caption>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic totam asperiores beatae minus aspernatur temporibus dolores itaque in, non saepe, aperiam assumenda exercitationem, possimus veritatis commodi deserunt eaque sequi veniam!</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </Container>
-
-        <Button className='m-3'>Learn More</Button>
+        <div className="m-3 text-center">
+          <Button >Learn More</Button>
+        </div>
       </Container>
 
-      <Container className='my-3 news'>
+      <Container className='my-5 news'>
         <h2 className='my-3 text-center'>Company News</h2>
         <Container>
           <Row>
             <Col>
               <Image src="/images/cytonn-photography.jpg" alt="" fluid />
-              <h3>Construction Co. announces new partnership with Building Co.</h3>
+              <h3 className='my-3'>Construction Co. announces new partnership with Building Co.</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
             <Col>
               <Image src="/images/scott-graham.jpg" alt="" fluid />
-              <h3>Book A Phone Consultation Today!</h3>
+              <h3 className='my-3'>Book A Phone Consultation Today!</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
             <Col>
               <Image src="/images/20off.png" alt="" fluid />
-              <h3>20% discount when you refer our services!</h3>
+              <h3 className='my-3'>20% discount when you refer our services!</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
           </Row>
         </Container>
-        <Button className='m-3'>Learn More</Button>
+
+        <div className="m-3 text-center">
+          <Button>Learn More</Button>
+        </div>
       </Container>
 
-      <Container className='my-3 blog'>
-        <h2>Blog and Resources</h2>
+      <Container className='my-3 blog' fluid={true}>
+        <h2 className='my-4'>Blog and Resources</h2>
         <Container>
           <Row>
-            <Col>
+            <Col sm>
               <Image src="/images/lucian-novosel.jpg" alt="" fluid />
-              <h3>What to know about your personal projects and renovation finance</h3>
+              <h3 className='my-3'>What to know about your personal projects and renovation finance</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
-            <Col>
+            <Col sm>
               <Image src="/images/avinash-kumar.jpg" alt="" fluid />
-              <h3>What to look for signs of mold in your home</h3>
+              <h3 className='my-3'>What to look for signs of mold in your home</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
-            <Col>
+            <Col sm>
               <Image src="/images/kelly-sikkema.jpg" alt="" fluid />
-              <h3>How to set a reasonable budget for home rennovation</h3>
+              <h3 className='my-3'>How to set a reasonable budget for home rennovation</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
           </Row>
         </Container>
-        <Button className='m-3'>Learn More</Button>
+
+        <div className="m-3 text-center">
+          <Button>Learn More</Button>
+        </div>
       </Container>
 
-      <footer className='p-3'>
+      <footer className='p-5 mt-5'>
         <Row>
           <Col>
             <Logo />
           </Col>
 
           <Col>
-            <h2>Newsletter</h2>
-            <input type="text" />
+            <h5>Subscribe to our newsletter</h5>
+            <input type="text" className='form-control'/>
             <Button>Subscribe</Button>
           </Col>
           <Col>

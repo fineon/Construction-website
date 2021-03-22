@@ -137,7 +137,7 @@ export default function Home() {
       <footer className='p-5 mt-5'>
         <Row>
           <Col>
-            <Logo />
+            <Image src='/images/logo.png'/>
           </Col>
 
           <Col>

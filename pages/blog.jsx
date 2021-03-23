@@ -5,9 +5,9 @@ import Footer from './components/Footer'
 import { Container, Col, Row, Image, Card, Button } from 'react-bootstrap'
 
 export async function getStaticProps(context) {
-
+    const url = process.env.NODE_ENV == 'production' ? `https://${process.env.WORDPRESS_URL}` : 'http://localhost:3000'
     //festching post data from WordPress CMS, with secrets hidden in .env.local file
-    const posts = await fetch(`https://${process.env.WORDPRESS_URL}`)
+    const posts = await fetch(url)
     const postData = await posts.json()
 
     // console.log(data)

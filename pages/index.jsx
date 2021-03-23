@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { Container, Row, Col, Card, Button, Carousel, Image } from 'react-bootstrap'
 import Header from './components/Header'
+import Footer from './components/Footer'
 // const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
 // const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
 // console.log(vw)
@@ -140,28 +141,7 @@ export default function Home() {
         </div>
       </Container>
 
-      <footer className='p-5 mt-5'>
-        <Row>
-          <Col>
-            <Image src='/images/logo.png' />
-          </Col>
-
-          <Col>
-            <form action="">
-              <label className='form-label'>Subscribe to our newsletter</label>
-              <input type="text" className='form-control' />
-              <Button>Subscribe</Button>
-            </form>
-          </Col>
-          <Col>
-            <Row className='justify-content-between'>
-              <a href="">Contact</a>
-              <a href="">Career</a>
-              <a href="">Blog</a>
-            </Row>
-          </Col>
-        </Row>
-      </footer>
+      <Footer/>
 
     </>
   )

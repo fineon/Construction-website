@@ -7,7 +7,7 @@ import { Container, Col, Row, Image, Card, Button } from 'react-bootstrap'
 export async function getStaticProps(context) {
 
     //festching post data from WordPress CMS, with secrets hidden in .env.local file
-    const posts = await fetch(process.env.WORDPRESS_URL)
+    const posts = await fetch(`https://${process.env.WORDPRESS_URL}`)
     const postData = await posts.json()
 
     // console.log(data)

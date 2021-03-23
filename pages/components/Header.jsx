@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Link from 'next/link'
 import { Row, Col, Nav, Button, Container, Modal, Image } from 'react-bootstrap'
 
 export default function Header() {
@@ -11,7 +12,10 @@ export default function Header() {
 
             <Nav className='d-flex flex-wrap justify-content-between'>
             {/* <Nav className='justify-content-end'> */}
+                <Link href='/'>
                 <Image src='/images/logo.png' />
+                </Link>
+                
                 <Nav.Item className='d-flex flex-wrap justify-content-between'>
                 {/* <Nav.Item> */}
                     <Nav.Link href="">Services</Nav.Link>

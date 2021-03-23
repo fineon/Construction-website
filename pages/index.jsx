@@ -1,7 +1,7 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import { Container, Row, Col, Card, Button, Carousel, Image } from 'react-bootstrap'
 import Header from './components/Header'
-import Logo from './components/logo'
 // const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
 // const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
 // console.log(vw)
@@ -17,7 +17,7 @@ export default function Home() {
 
       <Header />
 
-      <Container className='my-5 services' fluid={true}>
+      <Container id='header-link-to' className='my-5 services' fluid={true}>
         <h2 className='my-4 text-center'>Our Services</h2>
         <Row className='m-2'>
           <Col>
@@ -130,14 +130,20 @@ export default function Home() {
         </Container>
 
         <div className="m-3 text-center">
-          <Button>Learn More</Button>
+          
+            <Link href='/blog' passHref className='btn-primary'>
+              <button className='btn btn-primary'>
+                Learn More
+                </button>
+            </Link>
+          
         </div>
       </Container>
 
       <footer className='p-5 mt-5'>
         <Row>
           <Col>
-            <Image src='/images/logo.png'/>
+            <Image src='/images/logo.png' />
           </Col>
 
           <Col>
@@ -148,9 +154,11 @@ export default function Home() {
             </form>
           </Col>
           <Col>
-            <a href="">Contact</a>
-            <a href="">Career</a>
-            <a href="">Blog</a>
+            <Row className='justify-content-between'>
+              <a href="">Contact</a>
+              <a href="">Career</a>
+              <a href="">Blog</a>
+            </Row>
           </Col>
         </Row>
       </footer>

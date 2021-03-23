@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "engines": {
     "node": "14.x"
-  }, 
+  },
   "author": "Ian-Nguyen",
   "license": "MIT",
   "scripts": {
@@ -16,6 +16,7 @@
     "next": "^10.0.9",
     "react": "^16.13.1",
     "react-bootstrap": "^1.5.2",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "serverless-mysql": "^1.5.4"
   }
 }

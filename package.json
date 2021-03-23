@@ -1,6 +1,9 @@
 {
   "name": "construction-website",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.x"
+  }, 
   "author": "Ian-Nguyen",
   "license": "MIT",
   "scripts": {

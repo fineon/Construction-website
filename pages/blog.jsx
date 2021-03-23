@@ -23,7 +23,7 @@ export async function getStaticProps(context) {
 
 function BlogPosts(props) {
     return(
-        <Card className='m-3 p-3'>
+        <Card className='m-4 p-3'>
             <Card.Title>
             <h2>{props.content.title.rendered}</h2>
             <h5>{new Date(props.content.date).toLocaleDateString()}</h5>

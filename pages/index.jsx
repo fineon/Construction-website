@@ -19,12 +19,12 @@ export default function Home() {
       <Header />
 
       <Container id='header-link-to' className='my-5 services' fluid={true}>
-        <h2 className='my-4 text-center'>Our Services</h2>
+        <h2 className='my-4'>Our Services</h2>
         <Row className='m-2'>
-          <Col>
+          <Col sm={true}>
             <Image src="/images/daniel-mccullough.jpg" fluid={true} alt="" />
           </Col>
-          <Col>
+          <Col sm={true}>
             <h3 className='my-3'>Planning</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, provident blanditiis repellat atque tempore quae aliquid nisi doloremque, assumenda id iste quod rem iure deserunt officia reiciendis dolorum excepturi totam!</p>
           </Col>
@@ -45,7 +45,7 @@ export default function Home() {
           <Col >
             <Image src="/images/greyson-joralemon.jpg" fluid={true} alt="" />
           </Col>
-          <Col>
+          <Col sm={true}>
             <h3 className='my-3'>Building</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, provident blanditiis repellat atque tempore quae aliquid nisi doloremque, assumenda id iste quod rem iure deserunt officia reiciendis dolorum excepturi totam!</p>
           </Col>
@@ -58,7 +58,7 @@ export default function Home() {
       </Container>
 
       <Container className='my-5 past-projects' fluid={true}>
-        <h2 className='my-3 text-center'>Past Projects</h2>
+        <h2 className='my-3'>Past Projects</h2>
         <Container>
           <Carousel>
             <Carousel.Item>
@@ -82,20 +82,20 @@ export default function Home() {
       </Container>
 
       <Container className='my-5 news'>
-        <h2 className='my-3 text-center'>Company News</h2>
+        <h2 className='my-3'>Company News</h2>
         <Container>
           <Row>
-            <Col>
+            <Col sm={true}>
               <Image src="/images/cytonn-photography.jpg" alt="" fluid={true} />
               <h3 className='my-3'>Construction Co. announces new partnership with Building Co.</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
-            <Col>
+            <Col sm={true}>
               <Image src="/images/scott-graham.jpg" alt="" fluid={true} />
               <h3 className='my-3'>Book A Phone Consultation Today!</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
-            <Col>
+            <Col sm={true}>
               <Image src="/images/20off.png" alt="" fluid={true} />
               <h3 className='my-3'>20% discount when you refer our services!</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
@@ -112,17 +112,17 @@ export default function Home() {
         <h2 className='my-4'>Blog and Resources</h2>
         <Container>
           <Row>
-            <Col>
+            <Col sm={true}>
               <Image src="/images/lucian-novosel.jpg" alt="" fluid={true} />
               <h3 className='my-3'>What to know about your personal projects and renovation finance</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
-            <Col>
+            <Col sm={true}>
               <Image src="/images/avinash-kumar.jpg" alt="" fluid={true} />
               <h3 className='my-3'>What to look for signs of mold in your home</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>
             </Col>
-            <Col>
+            <Col sm={true}>
               <Image src="/images/kelly-sikkema.jpg" alt="" fluid={true} />
               <h3 className='my-3'>How to set a reasonable budget for home rennovation</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque provident sed ut aspernatur dolorum quo dolores adipisci quae, ea, explicabo earum voluptatum ex maxime nemo repellat illo quod tenetur non.</p>

@@ -17,7 +17,6 @@ export default function Header(props) {
                 </Link>
 
                 <Nav.Item className='d-flex flex-wrap justify-content-between'>
-
                     <Nav.Link href="">Services</Nav.Link>
                     <Link href='/blog' passHref>
                         <Nav.Link href="">Blog</Nav.Link>

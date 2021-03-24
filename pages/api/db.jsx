@@ -1,3 +1,4 @@
+/*
 import {queryFunc} from '../../lib/mysql-init'
 
 export default function db(req, res) {
@@ -13,3 +14,5 @@ export default function db(req, res) {
         console.log(e)
     }
 }
+
+*/
